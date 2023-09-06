@@ -44,5 +44,6 @@
 	/*Small smartphones [325px -> 425px]*/
     .navStyling {
         padding: 50px 30px;
+        overflow:hidden;
     }
 }
