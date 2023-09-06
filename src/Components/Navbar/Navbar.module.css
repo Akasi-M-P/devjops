@@ -1,0 +1,48 @@
+
+
+.navStyling {
+    background: #5964E0;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    position: relative;
+}
+
+.navContent {
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.triOne {
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    left: 0;
+    bottom: 2px;
+}
+
+.triTwo {
+    position: absolute;
+    right: 100px;
+    top: 0;
+    left: 110px;
+}
+
+.triThree {
+    position: absolute;
+    top: 0;
+    right: 60px;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 540px){
+	/*Small smartphones [325px -> 425px]*/
+    .navStyling {
+        padding: 50px 30px;
+    }
+}
