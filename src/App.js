@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
-import Card from "./Components/Card/Card";
+import CardList from "./Components/Card/CardList";
 
 function App() {
   return (
@@ -8,8 +8,8 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <main>
-        <Card />
+      <main className="cardList__container">
+        <CardList />
       </main>
     </>
   );

@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
-.card__Container {
+.card {
     width: 350px;
     height: 228px;
     border-radius: 6px;
     background: #FFF;
     cursor: pointer;
+    padding: 2em;
+    position: relative;
 }
 
 .icon {
     width: 50px;
-height: 50px;
+    height: 50px;
+    position: absolute;
+    top: -20px;
 }
 
 
@@ -21,6 +25,8 @@ height: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    position: absolute;
+    top: 3em;
 }
 
 
@@ -31,6 +37,8 @@ height: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    position: absolute;
+    top: 4em;
 }
 
 
@@ -41,6 +49,8 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+position: absolute;
+bottom: 6em;
 }
 
 .work__Country {
@@ -50,4 +60,6 @@ font-size: 14px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+position: absolute;
+bottom: 2em;
 }
