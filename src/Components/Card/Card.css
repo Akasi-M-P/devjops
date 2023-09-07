@@ -72,6 +72,14 @@
     }
 
     .job__Role {
+        font-size: 18px;
+    }
+
+    .date__type {
+        font-size: 14px;
+    }
+
+    .company {
         font-size: 16px;
     }
 }
