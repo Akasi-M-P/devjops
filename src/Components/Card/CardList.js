@@ -14,6 +14,11 @@ const CardList = ({ data }) => {
             position={item.position}
             company={item.company}
             location={item.location}
+            description={item.description}
+            requirementsContent={item.requirements.content}
+            requirementsItems={item.requirements.items}
+            roleContent={item.role.content}
+            roleItems={item.role.items}
           />
         ))}
       </section>

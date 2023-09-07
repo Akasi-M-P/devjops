@@ -1,10 +1,10 @@
 import btnStyling from "./Button.module.css";
 
-const Button = () => {
+const Button = ({ name }) => {
   return (
     <div>
       <button className={btnStyling.btnStyle} type="">
-        Load more
+        {name}
       </button>
     </div>
   );

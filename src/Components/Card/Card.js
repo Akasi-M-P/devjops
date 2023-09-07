@@ -1,8 +1,21 @@
 import "./Card.css";
 import { useState } from "react";
 import Modal from "react-bootstrap/Modal";
+import Button from "../Button/Button";
 
-const Card = ({ logo, postedAt, contract, position, company, location }) => {
+const Card = ({
+  logo,
+  postedAt,
+  contract,
+  position,
+  company,
+  location,
+  description,
+  requirementsContent,
+  requirementsItems,
+  roleContent,
+  roleItems,
+}) => {
   const [lgShow, setLgShow] = useState(false);
 
   return (
@@ -27,7 +40,19 @@ const Card = ({ logo, postedAt, contract, position, company, location }) => {
             {position}
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>...</Modal.Body>
+        <Modal.Body>
+          <p className="job__description">Job Description</p>
+          <p className="description__para">{description}</p>
+          <p className="requirements">Requirements</p>
+          <p className="requirements__para">{requirementsContent}</p>
+          <p className="requirements__para">{requirementsItems}</p>
+          <p className="role">Role</p>
+          <p className="role__para">{roleContent}</p>
+          <p className="role__para">{roleItems}</p>
+        </Modal.Body>
+        <section className="btn__Container">
+          <Button name="Apply" />
+        </section>
       </Modal>
     </>
   );

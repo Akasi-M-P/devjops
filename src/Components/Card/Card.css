@@ -65,6 +65,50 @@
     bottom: 1.5em;
 }
 
+
+/* Modal */
+.job__description {
+    color: #19202D;
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.description__para {
+    color: #19202D;
+    font-family: "Kumbh Sans";
+}
+
+.requirements {
+    color: #19202D;
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.requirements__para {
+    color: #19202D;
+    font-family: "Kumbh Sans";
+}
+
+.role {
+    color: #19202D;
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.role__para {
+    color: #19202D;
+    font-family: "Kumbh Sans";
+}
+
 @media only screen and (max-width: 540px){
 	/*Small smartphones [325px -> 425px]*/
     .card {

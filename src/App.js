@@ -14,7 +14,7 @@ function App() {
       <main className="cardList__container">
         <CardList data={data} />
         <section className="btn__Container">
-          <Button />
+          <Button name="Load more" />
         </section>
         ;
       </main>
