@@ -1,0 +1,22 @@
+.btnStyle {
+    width: 141px;
+    height: 48px;
+    margin: auto;
+    color: #FFF;
+    text-align: center;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+    background: #5964E0;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.btnStyle:hover {
+    color: #5964E0;
+    background-color: #FFF;
+    border-color: #5964E0;
+}

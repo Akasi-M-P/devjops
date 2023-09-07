@@ -1,16 +1,21 @@
 import Card from "./Card";
 import "./CardList.css";
 
-const CardList = () => {
+const CardList = ({ data }) => {
   return (
     <>
       <section className="card__Container">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {data.map((item, id) => (
+          <Card
+            key={id}
+            logo={item.logo}
+            postedAt={item.postedAt}
+            contract={item.contract}
+            position={item.position}
+            company={item.company}
+            location={item.location}
+          />
+        ))}
       </section>
     </>
   );

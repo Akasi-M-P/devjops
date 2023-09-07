@@ -1,6 +1,8 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import CardList from "./Components/Card/CardList";
+import Button from "./Components/Button/Button";
+import data from "./data/data.json";
 
 function App() {
   return (
@@ -9,7 +11,10 @@ function App() {
         <Navbar />
       </header>
       <main className="cardList__container">
-        <CardList />
+        <CardList data={data} />
+        <section className="btn__Container">
+          <Button />
+        </section>
       </main>
     </>
   );

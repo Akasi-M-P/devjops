@@ -18,6 +18,14 @@ body {
 }
 
 
+/* Button Load More */
+.btn__Container {
+    margin: 4em auto;
+    display: flex;
+    justify-content: center;
+}
+
+
 @media only screen and (max-width: 540px){
 	/*Small smartphones [325px -> 425px]*/
     .cardList__container {
