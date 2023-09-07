@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+.card__Container {
+    width: 350px;
+    height: 228px;
+    border-radius: 6px;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.icon {
+    width: 50px;
+height: 50px;
+}
+
+
+.date__type {
+    color: #6E8098;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.job__Role {
+    color: #19202D;
+    font-family: "Kumbh Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.company {
+    color: #6E8098;
+font-family: "Kumbh Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.work__Country {
+    color: #5964E0;
+font-family: "Kumbh Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
