@@ -1,4 +1,5 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Components/Navbar/Navbar";
 import CardList from "./Components/Card/CardList";
 import Button from "./Components/Button/Button";
@@ -15,6 +16,7 @@ function App() {
         <section className="btn__Container">
           <Button />
         </section>
+        ;
       </main>
     </>
   );
