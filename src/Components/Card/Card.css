@@ -63,3 +63,11 @@ line-height: normal;
 position: absolute;
 bottom: 2em;
 }
+
+@media only screen and (max-width: 540px){
+	/*Small smartphones [325px -> 425px]*/
+    .card {
+        width: 320px;
+        margin: 4em auto;
+    }
+}

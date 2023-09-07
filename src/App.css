@@ -16,3 +16,13 @@ body {
     margin: 5em auto;
     padding: 0 5em;
 }
+
+
+@media only screen and (max-width: 540px){
+	/*Small smartphones [325px -> 425px]*/
+    .cardList__container {
+    width: 90%;
+    margin: 5em auto;
+    padding: 0;
+}
+}

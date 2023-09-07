@@ -3,3 +3,12 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 3em;
 }
+
+
+@media only screen and (max-width: 540px){
+	/*Small smartphones [325px -> 425px]*/
+    .card__Container {
+        width: 100%;
+        display: block;
+    }
+}
